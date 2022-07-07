@@ -1,8 +1,8 @@
 <script setup>
-import { pic } from "../anya";
+import { pic } from "../Anya";
 
 const links = [
-    { text: "Anya", url: "/" },
+    { text: "Jasmine", url: "/" },
     { text: "About", url: "/about" },
     { text: "Projects", url: "/projects" },
 ];
@@ -17,11 +17,11 @@ const links = [
                 'w-full',
                 'rounded-b-lg',
                 'bg-gradient-to-r',
-                'from-violet-800',
-                'to-indigo-600',
+                'from-slate-400',
+                'to-slate-300',
                 'pl-24',
                 'shadow-lg',
-                'shadow-indigo-400',
+                'shadow-slate-300',
                 'md:pl-32',
                 'transition-all',
                 'duration-200',
@@ -35,7 +35,7 @@ const links = [
             >
                 <router-link
                     :to="link.url"
-                    class="text-xl text-white opacity-80 shadow-cyan-300 drop-shadow-xl transition-all duration-200 hover:text-2xl hover:opacity-100"
+                    class="text-xl text-slate-200 shadow-slate-200 drop-shadow-xl transition-all duration-200 hover:text-2xl hover:opacity-100"
                     >{{ link.text }}</router-link
                 >
             </div>
@@ -50,7 +50,7 @@ const links = [
             leave-to-class="transform -translate-x-32"
         >
             <div
-                class="absolute top-4 left-4 z-50 h-20 w-20 overflow-hidden rounded-full bg-pink-200 shadow-md shadow-blue-300 ring-1 ring-violet-700 md:h-24 md:w-24"
+                class="absolute top-4 left-4 z-50 h-20 w-20 overflow-hidden rounded-full bg-slate-100 shadow-md shadow-slate-300 ring-1 ring-slate-400 md:h-24 md:w-24"
                 v-if="$route.path !== '/about'"
             >
                 <img

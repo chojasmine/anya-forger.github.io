@@ -38,8 +38,8 @@ pic.avatars.push(
 const titles = ["First-Grade Student", "Test Subject 007", "Telepath"];
 
 const about = [
-    "My name is Anya Forger. I am 6 years old now!",
-    "I am studing in Cecile Hall at Eden Academy.",
+    "My name is Jasmine. I am 16 years old now!",
+    "I am studing in Taiwan.",
     "",
     "This summer I went to NTNU CSIE Camp to learn how to code.",
     "During the camp, I learned how to: ",

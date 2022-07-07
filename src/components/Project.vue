@@ -52,7 +52,7 @@ let step = ref(0);
                     class="inline-block"
                 >
                     <Typing
-                        class="w-full text-blue-400 transition-all duration-200 ease-in hover:text-blue-600"
+                        class="w-full text-slate-400 transition-all duration-200 ease-in hover:text-slate-600"
                         :text="project.url"
                         :speed="40"
                         v-if="step > 2"
